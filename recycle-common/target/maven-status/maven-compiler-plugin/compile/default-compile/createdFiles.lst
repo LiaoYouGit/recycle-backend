@@ -1,0 +1,15 @@
+com\recycle\common\handler\MyMetaObjectHandler.class
+com\recycle\common\entity\SysUser.class
+com\recycle\common\entity\RecycleCategory.class
+com\recycle\common\JwtProperties.class
+com\recycle\common\JwtUtil.class
+com\recycle\common\Result.class
+com\recycle\common\config\MybatisPlusConfig.class
+com\recycle\common\entity\Inventory.class
+com\recycle\common\AliyunSmsUtil.class
+com\recycle\common\AliyunSmsUtil$1.class
+com\recycle\common\entity\FinanceRecord.class
+com\recycle\common\exception\GlobalExceptionHandler.class
+com\recycle\common\BusinessException.class
+com\recycle\common\config\RedisConfig.class
+com\recycle\common\entity\RecycleOrder.class

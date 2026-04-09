@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="549ef076-1af5-4dba-bd30-f03a0220b75f" name="更改" comment="init">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-auth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-auth/src/main/java/com/recycle/auth/AuthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-auth/src/main/java/com/recycle/auth/config/AuthBeanConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-auth/src/main/java/com/recycle/auth/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-auth/src/main/java/com/recycle/auth/controller/SmsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-auth/src/main/java/com/recycle/auth/mapper/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-auth/src/main/java/com/recycle/auth/service/SysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-auth/src/main/java/com/recycle/auth/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-auth/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-auth/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-auth/target/classes/com/recycle/auth/AuthApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-auth/target/classes/com/recycle/auth/config/AuthBeanConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-auth/target/classes/com/recycle/auth/controller/AuthController$LoginDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-auth/target/classes/com/recycle/auth/controller/AuthController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-auth/target/classes/com/recycle/auth/controller/SmsController$SmsDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-auth/target/classes/com/recycle/auth/controller/SmsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-auth/target/classes/com/recycle/auth/mapper/SysUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-auth/target/classes/com/recycle/auth/service/SysUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-auth/target/classes/com/recycle/auth/service/impl/SysUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-auth/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-auth/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-auth/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-auth/target/recycle-auth-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/src/main/java/com/recycle/business/BusinessApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/src/main/java/com/recycle/business/controller/BusinessController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/src/main/java/com/recycle/business/mapper/FinanceRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/src/main/java/com/recycle/business/mapper/InventoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/src/main/java/com/recycle/business/mapper/RecycleCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/src/main/java/com/recycle/business/service/FinanceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/src/main/java/com/recycle/business/service/InventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/src/main/java/com/recycle/business/service/RecycleCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/src/main/java/com/recycle/business/service/impl/FinanceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/src/main/java/com/recycle/business/service/impl/InventoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/src/main/java/com/recycle/business/service/impl/RecycleCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/target/classes/com/recycle/business/BusinessApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/target/classes/com/recycle/business/controller/BusinessController$CategoryDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/target/classes/com/recycle/business/controller/BusinessController$CompleteDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/target/classes/com/recycle/business/controller/BusinessController$FinanceDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/target/classes/com/recycle/business/controller/BusinessController$InventoryDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/target/classes/com/recycle/business/controller/BusinessController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/target/classes/com/recycle/business/mapper/FinanceRecordMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/target/classes/com/recycle/business/mapper/InventoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/target/classes/com/recycle/business/mapper/RecycleCategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/target/classes/com/recycle/business/service/FinanceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/target/classes/com/recycle/business/service/InventoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/target/classes/com/recycle/business/service/RecycleCategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/target/classes/com/recycle/business/service/impl/FinanceServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/target/classes/com/recycle/business/service/impl/InventoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/target/classes/com/recycle/business/service/impl/RecycleCategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-business/target/recycle-business-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/src/main/java/com/recycle/common/AliyunSmsUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/src/main/java/com/recycle/common/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/src/main/java/com/recycle/common/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/src/main/java/com/recycle/common/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/src/main/java/com/recycle/common/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/src/main/java/com/recycle/common/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/src/main/java/com/recycle/common/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/src/main/java/com/recycle/common/entity/FinanceRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/src/main/java/com/recycle/common/entity/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/src/main/java/com/recycle/common/entity/RecycleCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/src/main/java/com/recycle/common/entity/RecycleOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/src/main/java/com/recycle/common/entity/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/src/main/java/com/recycle/common/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/src/main/java/com/recycle/common/handler/MyMetaObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/target/classes/com/recycle/common/AliyunSmsUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/target/classes/com/recycle/common/AliyunSmsUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/target/classes/com/recycle/common/BusinessException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/target/classes/com/recycle/common/JwtProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/target/classes/com/recycle/common/JwtUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/target/classes/com/recycle/common/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/target/classes/com/recycle/common/config/MybatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/target/classes/com/recycle/common/config/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/target/classes/com/recycle/common/entity/FinanceRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/target/classes/com/recycle/common/entity/Inventory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/target/classes/com/recycle/common/entity/RecycleCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/target/classes/com/recycle/common/entity/RecycleOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/target/classes/com/recycle/common/entity/SysUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/target/classes/com/recycle/common/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/target/classes/com/recycle/common/handler/MyMetaObjectHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-common/target/recycle-common-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-gateway/src/main/java/com/recycle/gateway/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-gateway/src/main/java/com/recycle/gateway/filter/JwtAuthGatewayFilterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-gateway/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-gateway/target/classes/com/recycle/gateway/GatewayApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-gateway/target/classes/com/recycle/gateway/filter/JwtAuthGatewayFilterFactory$Config.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-gateway/target/classes/com/recycle/gateway/filter/JwtAuthGatewayFilterFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-gateway/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-gateway/target/recycle-gateway-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-order/src/main/java/com/recycle/order/OrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-order/src/main/java/com/recycle/order/controller/RecycleOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-order/src/main/java/com/recycle/order/mapper/RecycleOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-order/src/main/java/com/recycle/order/service/RecycleOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-order/src/main/java/com/recycle/order/service/impl/RecycleOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-order/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-order/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-order/target/classes/com/recycle/order/OrderApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-order/target/classes/com/recycle/order/controller/RecycleOrderController$CreateOrderDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-order/target/classes/com/recycle/order/controller/RecycleOrderController$PickupDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-order/target/classes/com/recycle/order/controller/RecycleOrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-order/target/classes/com/recycle/order/mapper/RecycleOrderMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-order/target/classes/com/recycle/order/service/RecycleOrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-order/target/classes/com/recycle/order/service/impl/RecycleOrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-order/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-order/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-order/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycle-order/target/recycle-order-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LiaoYouGit&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LiaoYouGit/recycle-backend.git&quot;,
+    &quot;accountId&quot;: &quot;bb800507-9199-4b4b-8301-3afc3a80fec8&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.9.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="17 (2)" />
+        <option name="workspaceImportForciblyTurnedOn" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="3C6koeFnTVO46VSmNSuokEWe88R" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.application.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Administrator/Desktop/common_file/dev-project/recycle-backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="recycle-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.recycle.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="549ef076-1af5-4dba-bd30-f03a0220b75f" name="更改" comment="" />
+      <created>1775713582577</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775713582577</updated>
+      <workItem from="1775713583659" duration="4114000" />
+      <workItem from="1775720854711" duration="2897000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+</project>

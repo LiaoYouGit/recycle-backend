@@ -1,0 +1,87 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: recycle-gateway
+  cloud:
+    gateway:
+      # 全局跨域
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOriginPatterns: "*"
+            allowedMethods: "*"
+            allowedHeaders: "*"
+            allowCredentials: true
+            maxAge: 3600
+      routes:
+        # ===== 管理端（统一 /api/manage 前缀，需鉴权） =====
+        # 管理端 -> auth 服务（去掉 /manage 前缀后转发）
+        - id: manage-auth
+          uri: http://localhost:8091
+          predicates:
+            - Path=/api/manage/auth/**
+          filters:
+            - name: RewritePath
+              args:
+                regexp: /api/manage/(?<segment>.*)
+                replacement: /api/$\{segment}
+            - name: JwtAuth
+        # 管理端 -> order 服务
+        - id: manage-order
+          uri: http://localhost:8092
+          predicates:
+            - Path=/api/manage/order/**
+          filters:
+            - name: RewritePath
+              args:
+                regexp: /api/manage/(?<segment>.*)
+                replacement: /api/$\{segment}
+            - name: JwtAuth
+        # 管理端 -> business 服务
+        - id: manage-business
+          uri: http://localhost:8093
+          predicates:
+            - Path=/api/manage/inventory/**, /api/manage/finance/**, /api/manage/category/**
+          filters:
+            - name: RewritePath
+              args:
+                regexp: /api/manage/(?<segment>.*)
+                replacement: /api/$\{segment}
+            - name: JwtAuth
+
+        # ===== 公开接口 =====
+        # 认证服务（登录）
+        - id: recycle-auth
+          uri: http://localhost:8091
+          predicates:
+            - Path=/api/auth/**, /api/sms/**
+          filters:
+            - StripPrefix=0
+        # 订单服务（公开）
+        - id: recycle-order-public
+          uri: http://localhost:8092
+          predicates:
+            - Path=/api/order/create, /api/order/detail/**, /api/order/listByPhone
+          filters:
+            - StripPrefix=0
+        # 业务服务（公开：品类列表）
+        - id: recycle-business-public
+          uri: http://localhost:8093
+          predicates:
+            - Path=/api/category/list
+          filters:
+            - StripPrefix=0
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      database: 0
+
+# JWT配置（与auth服务一致）
+jwt:
+  secret: recycle_admin_secret_key_2024_at_least_32_bytes_long
+  header: Authorization
+  prefix: "Bearer "

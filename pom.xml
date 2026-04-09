@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.0.5</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>com.recycle</groupId>
+    <artifactId>recycle-backend</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <name>recycle-backend</name>
+    <description>上会回收项目后端（分布式）</description>
+
+    <modules>
+        <module>recycle-common</module>
+        <module>recycle-gateway</module>
+        <module>recycle-auth</module>
+        <module>recycle-order</module>
+        <module>recycle-business</module>
+    </modules>
+
+    <properties>
+        <java.version>17</java.version>
+        <mybatis-plus.version>3.5.3.1</mybatis-plus.version>
+        <fastjson.version>2.0.40</fastjson.version>
+        <jjwt.version>0.9.1</jjwt.version>
+        <aliyun-sms.version>2.2.1</aliyun-sms.version>
+        <aliyun-core.version>4.6.3</aliyun-core.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- 内部模块 -->
+            <dependency>
+                <groupId>com.recycle</groupId>
+                <artifactId>recycle-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <!-- MyBatis-Plus -->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+
+            <!-- FastJSON -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+
+            <!-- JWT -->
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt</artifactId>
+                <version>${jjwt.version}</version>
+            </dependency>
+
+            <!-- 阿里云短信 -->
+            <dependency>
+                <groupId>com.aliyun</groupId>
+                <artifactId>aliyun-java-sdk-dysmsapi</artifactId>
+                <version>${aliyun-sms.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.aliyun</groupId>
+                <artifactId>aliyun-java-sdk-core</artifactId>
+                <version>${aliyun-core.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>

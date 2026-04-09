@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="recycle-common" />
+        <module name="recycle-order" />
+        <module name="recycle-auth" />
+        <module name="recycle-gateway" />
+        <module name="recycle-business" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="recycle-auth" options="-parameters" />
+      <module name="recycle-business" options="-parameters" />
+      <module name="recycle-common" options="-parameters" />
+      <module name="recycle-gateway" options="-parameters" />
+      <module name="recycle-order" options="-parameters" />
+    </option>
+  </component>
+</project>
