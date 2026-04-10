@@ -9,7 +9,8 @@ spring:
 #   url: jdbc:mysql://localhost:3306/recycle_db?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
     url: jdbc:mysql://47.108.83.101:3306/recycle_db?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
     username: root
-    password: tama1998
+    password: tz123456
+  #    password: tama1998 本地
   data:
     redis:
       host: localhost
